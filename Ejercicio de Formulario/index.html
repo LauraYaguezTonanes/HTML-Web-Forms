@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleForm.css"/>
+    <title>Sportium Form</title>
+</head>
+<body>
+    <header>
+        <section class="firstHeader">
+            <logo>Sportium</logo>
+            <form>
+                <input class="botonRegistrate" type="button" value="REGÍSTRATE">
+                <input type="text" placeholder="Usuario">
+                <input type="password" placeholder="Contraseña">
+                <input class="botonEntrar" type="button" value="ENTRAR">
+            </form>
+        </section>
+        <section class="secondHeader">
+            <nav class="menu">
+                <h3>APUESTAS DEPORTIVAS</h3>
+                <h3>APUESTAS EN VIVO</h3>
+                <h3>SLOTS</h3>
+                <h3>CASINO</h3>
+                <h3>BINGO</h3>
+                <h3>POKER</h3>
+                <button>?</button>
+            </nav>
+            <section class="buttonList">
+                <input type="button" value="CHAT">
+                <input type="datetime-local">
+            </section>
+        </section>
+    </header>
+    <div class="tercerHeader">
+        <h2>Regístrate ahora y comienza a jugar</h2>
+        <nav>
+            <h3>¿Necesitas ayuda?</h3>
+            <h3>Teléfono Gratuito<br>900 44 77 44</h3>
+            <h3>Chat en vivo</h3>
+            <h3>Video tutorial<br>¿Como registrarte?</h3>
+            <h3>ayuda@sportium.es</h3>
+        </nav>
+    </div>
+    <div class="formContainer">
+        <form class="datos personales">
+            <h2>Tus datos personales</h2>
+            <label>Nombre Completo *</label>
+            <input type="text" placeholder="Ej:Maria Rosa, Jose Juan, Antonio">
+            <label>Apellido</label>
+            <input type="text">
+            <label>Segundo Apellido</label>
+            <input type="text">
+            <label>Sexo: *</label>
+            <select>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+            </select>
+            <label>Fecha nacimiento: *</label>
+            <input type="date">
+            <label>Nacionalidad</label>
+            <input type=>
+            <label>DNI/NIE *</label>
+            <input type="text" placeholder="Ej: 12345678X o X1234567B">
+        </form>
+        <form class="datos contacto">
+            <h2>Tus datos de contacto</h2>
+            <label>Correo electronico: *</label>
+            <input type="email" placeholder="Ej: email@gmail.com">
+            <label>Confirmacion de E-mail: *</label>
+            <input type="email">
+            <label>Pais de Residencia: *</label>
+            <select>
+                <option label="España">España</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Italia">Italia</option>
+            </select>
+            <label>Codigo postal: *</label>
+            <input type="number">
+            <label>Direccion: *</label>
+            <input type="text">
+            <label>Pueblo/Ciudad: *</label>
+            <input type="text">
+            <label>Domicilio Fiscal: *</label>
+            <select>
+                <option label="Escoge">Escoge</option>
+                <option value="29005">29005</option>
+                <option value="29006">29006</option>
+                <option value="29007">29007</option>
+                <option value="29008">29008</option>
+                <option value="29009">29009</option>
+            </select>
+            <label>Telefono: *</label>
+            <input type="number">
+        </form>
+        <form class="datos cuenta">
+            <h2>Información de tu cuenta</h2>
+            <label>Usuario: *</label>
+            <input type="text">
+            <label> Contraseña: *</label>
+            <input type="password" placeholder="Ej: Sportium-1">
+            <label>Fortaleza de Contraseña</label>
+            <input type="range">
+            debil fuerte
+            <label>Verificar Contraseña: *</label>
+            <input type="password">
+            <label>Pregunta secreta: *</label>
+            <select>
+                <option label="Escoge">Escoge</option>
+                <option value="Color favorito?">Color favorito?</option>
+                <option value="Lugar favorito?">Lugar favorito?</option>
+                <option value="Nombre de Madre">Nombre de Madre</option>
+            </select>
+            <label>Respuesta: *</label>
+            <input type="text">
+            <label> Codigo de registro (opcional):</label>
+            <input type="number">
+        </form>
+    </div>
+    <footer>
+        <div class="check">
+            <input type="checkbox">
+            <label>Acepto los Terminos y Condiciones y haber leido la Politica de Privacidad</label>
+        </div>
+        <button>¡REGÍSTRATE AHORA!</button>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,150 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 100px 0px 100px;
+}
+header{
+    background-color: #EF1818;
+    color: white;
+    width: 100%;
+    height: 150px;
+}
+.firstHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 70%;
+}
+.botonRegistrate{
+    background-color: #07B402;
+    color: white;
+    width: auto;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    border-right: white 2px solid;
+}
+.botonEntrar{
+    background-color: #B40202;
+    color: white;
+    width: auto;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.secondHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #DB0808;
+    align-self: flex-end;
+    height: 40%;
+    align-items: center;
+}
+.menu{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 16px;
+    border: violet 3px solid;
+}
+.menu button{
+    border-radius: 100%;
+    height: 30px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #B40202;
+    color: white;
+}
+.buttonList{
+    justify-content: right;
+}
+.tercerHeader{
+    border: violet 3px solid;
+    /* display: flex; */
+    /* padding-top: 40px; */
+    margin: 50px;
+    align-items: center;
+}
+.tercerHeader h2{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    height: 30px;
+    width: 90%;
+    align-items: center;
+    /* border: red 2px solid; */
+}
+.tercerHeader nav{
+    display: flex;
+    justify-content: space-between;
+}
+.formContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    border-top: gray 3px solid;
+}
+.datos{
+    width: 25%;
+    display: inherit;
+    flex-direction:column;
+    padding: 10px;
+    justify-content: space-between;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+input{
+    border-radius: 5px;
+    height: 25px;
+}
+select{
+    border-radius: 5px;
+    height: 25px;
+}
+.personales{
+
+}
+.personales h2{
+    border-bottom: gray 3px solid;
+}
+.contacto{
+
+}
+.contacto h2{
+    border-bottom: gray 3px solid;
+}
+.cuenta{
+
+}
+.cuenta h2{
+    border-bottom: gray 3px solid;
+}
+footer{
+    border-top: gray 3px solid;
+    display: flex;
+    flex-direction: column;
+    color: olive;
+    height: 180px;
+}
+footer button{
+    background-color: #07B402;
+    color: white;
+    width: 300px;
+    margin: auto;
+    height: 70px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.check{
+    display: flex;
+    margin: auto;
+}
+
+/* fuentes google fonts. botones . acomodar nav . tamanio e iconos de necesitas ayuda
+form fuentes . estilo boton registrate . anchos */
