@@ -1,28 +1,34 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px 100px 0px 100px;
+    background-color: rgb(230, 230, 230);
 }
 header{
-    background-color: #EF1818;
+    background-color: #df0b0b;
     color: white;
     width: 100%;
     height: 150px;
+    border-radius: 5px;
 }
 .firstHeader{
     width: 100%;
     display: flex;
     justify-content: space-between;
     height: 70%;
+    margin-top: 15px;
 }
 .botonRegistrate{
     background-color: #07B402;
     color: white;
     width: auto;
     height: 40px;
-    border-radius: 3px;
+    border-radius: 7px;
     font-size: 16px;
     font-weight: bold;
     border-right: white 2px solid;
+    margin-top: 30px;
+    margin-right: 10px;
+    padding: 10px;
 }
 .botonEntrar{
     background-color: #B40202;
@@ -32,23 +38,27 @@ header{
     border-radius: 3px;
     font-size: 16px;
     font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .secondHeader{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #DB0808;
+    background-color: #bb0404;
     align-self: flex-end;
     height: 40%;
     align-items: center;
+    border-radius: 5px;
 }
 .menu{
-    width: 70%;
+    width: 75%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: white;
     font-size: 16px;
-    border: violet 3px solid;
+    margin-left: 10px;
+    border-radius: 5px;
 }
 .menu button{
     border-radius: 100%;
@@ -57,15 +67,18 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #B40202;
     color: white;
+    margin-right: 10px;
+    margin-top: 12px;
 }
 .buttonList{
-    justify-content: right;
+    margin-right: 10px;
+}
+.buttonList input{
+    margin-right: 5px;
 }
 .tercerHeader{
-    border: violet 3px solid;
-    /* display: flex; */
-    /* padding-top: 40px; */
-    margin: 50px;
+    margin: 40px;
+    margin-bottom: 20px;
     align-items: center;
 }
 .tercerHeader h2{
@@ -74,13 +87,16 @@ header{
     color: white;
     font-size: 16px;
     height: 30px;
-    width: 90%;
+    width: 100%;
     align-items: center;
-    /* border: red 2px solid; */
+    justify-content: center;
+    border-radius: 3px;
+    margin-top: 0px;
+    padding-left: 5px;
 }
 .tercerHeader nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .formContainer{
     display: flex;
@@ -106,23 +122,29 @@ select{
     border-radius: 5px;
     height: 25px;
 }
-.personales{
-
-}
 .personales h2{
     border-bottom: gray 3px solid;
-}
-.contacto{
-
+    margin-top: 0px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
 }
 .contacto h2{
     border-bottom: gray 3px solid;
-}
-.cuenta{
-
+    margin-top: 0px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
 }
 .cuenta h2{
     border-bottom: gray 3px solid;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
 }
 footer{
     border-top: gray 3px solid;
@@ -130,6 +152,17 @@ footer{
     flex-direction: column;
     color: olive;
     height: 180px;
+    margin-top: 10px;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.check input{
+    margin-right: 5px;
+    margin-top: 0px;
 }
 footer button{
     background-color: #07B402;
@@ -137,13 +170,10 @@ footer button{
     width: 300px;
     margin: auto;
     height: 70px;
-    border-radius: 3px;
+    border-radius: 7px;
     font-size: 20px;
     font-weight: bold;
-}
-.check{
-    display: flex;
-    margin: auto;
+    margin-top: 25px;
 }
 
 /* fuentes google fonts. botones . acomodar nav . tamanio e iconos de necesitas ayuda
